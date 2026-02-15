@@ -1,0 +1,112 @@
+@import "tailwindcss";
+.headers-page{
+  @apply mx-[5%] 
+}
+.headers-title{
+  @apply flex flex-row justify-between items-center bg-green-300 h-17.5 my-5 p-3 rounded-[20px] border-2 border-green-400 shadow-[5px_5px_10px_rgba(0,0,0,0.2)]
+}
+.page-title{
+  @apply font-bold text-2xl
+}
+.auth{
+  @apply flex flex-row justify-between items-center gap-5
+}
+.user-name{
+  @apply font-medium p-2 bg-emerald-300 rounded-full
+}
+.button-login{
+  @apply bg-amber-400 hover:bg-amber-500 p-2 rounded-full border-2 border-amber-600 cursor-pointer
+}
+.button-logout{
+  @apply bg-red-400 hover:bg-red-500 p-2 rounded-full border-2 border-red-600 cursor-pointer
+}
+.header-form{
+  @apply bg-green-300 p-5 rounded-[30px] border-2 border-green-400 w-6/10 shadow-[5px_5px_10px_rgba(0,0,0,0.2)]
+}
+.form-title{
+  @apply font-medium text-xl
+}
+.form-input-title{
+  @apply bg-green-200 w-1/2 mt-4 rounded-[10px] p-1
+}
+.form-input-desc{
+  @apply bg-green-200 w-full mt-4 rounded-[10px] p-1
+}
+.form-input-category{
+  @apply bg-green-200 w-1/2 mt-4 rounded-[10px] p-1
+}
+.form-input{
+  @apply bg-green-400 my-4 rounded-[10px] p-1 cursor-pointer
+}
+.form-input-d{
+  @apply w-0 h-0
+}
+.form-select{
+  @apply mb-5
+}
+.form-button{
+  @apply bg-lime-300 rounded-[10px] px-5 py-1 cursor-pointer border-2 border-lime-500 hover:bg-lime-400 active:bg-green-400
+}
+.section-title{
+  @apply font-bold text-3xl my-5 bg-green-300 rounded-[15px] p-2 w-fit border-2 border-green-400 shadow-[5px_5px_10px_rgba(0,0,0,0.2)]
+}
+.headers-list{
+  @apply grid grid-cols-3 gap-5
+}
+.header-card{
+  @apply bg-green-300 border-2 border-green-400 rounded-[15px] p-3 shadow-[5px_5px_10px_rgba(0,0,0,0.2)] h-fit
+}
+.header-title{
+  @apply font-bold text-2xl bg-emerald-300 w-fit rounded-[15px] p-1
+}
+.header-category{
+  @apply font-medium text-xl bg-green-500 w-fit rounded-[10px] px-1 mt-3
+}
+.header-image{
+  @apply border-2 border-green-400 rounded-[15px] object-cover my-5 w-full
+}
+.header-desc{
+  @apply bg-emerald-300 rounded-[15px] px-1 w-fit
+}
+.header-buttons{
+  @apply flex flex-row justify-around mt-5 font-bold
+}
+.header-button-green{
+  @apply w-9/20 bg-lime-300 py-2 rounded-full border-3 border-lime-500 cursor-pointer hover:bg-lime-400 active:bg-green-400
+}
+.header-button-red{
+  @apply w-9/20 bg-red-400 py-2 rounded-full border-3 border-red-600 cursor-pointer hover:bg-red-500 active:bg-pink-500
+}
+.header-update-bg{
+  @apply fixed top-0 left-0 w-full h-full bg-black/50 flex justify-center items-center z-1000
+}
+.header-update-con{
+  @apply bg-green-300 p-10 rounded-[15px] border-5 border-green-600 w-1/2
+}
+.header-update-form{
+  @apply w-6/10 mt-5 flex flex-col justify-start
+}
+.header-update-title{
+  @apply font-bold text-2xl
+}
+.header-update-buttons{
+  @apply flex w-1/2 justify-between
+}
+.header-update-submit{
+  @apply bg-lime-300 rounded-[10px] py-1 cursor-pointer border-2 border-lime-500 hover:bg-lime-400 active:bg-green-400 w-9/20
+}
+.header-update-close{
+  @apply w-9/20 bg-orange-300 rounded-[10px] py-1 cursor-pointer border-2 border-orange-500 hover:bg-orange-400 active:bg-amber-400
+}
+.header-delete-bg{
+  @apply fixed top-0 left-0 w-full h-full bg-black/50 flex justify-center items-center z-1000
+}
+.header-delete-con{
+  @apply flex flex-col justify-center items-center bg-green-300 px-5 py-5 rounded-[15px] border-5 border-green-600 w-1/2
+}
+.header-delete-title{
+  @apply font-bold text-2xl
+}
+.header-delete-form{
+  @apply w-6/10 mt-5 flex justify-between
+}

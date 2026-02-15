@@ -1,0 +1,19 @@
+@import "tailwindcss";
+.auth-container{
+  @apply flex flex-col justify-center items-center bg-green-300 rounded-[100px] border-3 border-green-400 w-2/5 m-auto py-5 mt-20 shadow-[5px_5px_10px_rgba(0,0,0,0.2)]
+}
+.auth-title{
+  @apply font-bold text-3xl
+}
+.auth-form{
+  @apply flex flex-col w-full items-center
+}
+.auth-form input{
+  @apply bg-green-200 w-2/3 rounded-full p-1 my-5
+}
+.submit-button{
+  @apply bg-green-400 rounded-full py-3 w-1/2 border-2 border-lime-500 hover:bg-green-500 active:bg-emerald-500 cursor-pointer
+}
+.toggle-button{
+  @apply bg-emerald-300 rounded-full p-2 border-2 border-green-400 my-5 hover:bg-emerald-400 active:bg-emerald-500 cursor-pointer
+}
